@@ -1,0 +1,385 @@
+//----------------------------------------------------
+  output 1 of MyTunes.java
+//----------------------------------------------------
+
+NOTES: Testing non-empty queues form the file(resources/tunes.txt) with 16 requested songs :
+
+Welcome! We have over 59600 in FoothillTunes store! 
+Total number of songs in playlists: 16
+
+Songs in each playlist:
+
+favorites:
+
+-- Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+-- Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+-- Stoned, 0:11:47, Dido, classic pop and rock
+-- We Belong, 0:3:43, Pat Benatar, classic pop and rock
+-- Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock
+
+
+lounge:
+
+-- Solo, 0:4:41, Working Week, classic pop and rock
+-- Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+-- Luka, 0:3:52, Suzanne Vega, classic pop and rock
+-- Traffic, 0:4:5, Dawn Landes, classic pop and rock
+
+
+roadTrip:
+
+-- Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+-- Here With Me, 0:4:41, Dido, classic pop and rock
+-- Get Happy, 0:6:36, Jean Knight, classic pop and rock
+-- Let's Dance, 0:2:45, Jake Shimabukuro, folk
+-- Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+-- Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+-- Road Home, 0:5:8, The String Cheese Incident, folk
+
+
+Enter your the number of songs you would like to play:
+7
+
+Playing 7 number of songs...
+Playing song title "Shadows - Original"
+Playing song title "Solo"
+Playing song title "Tom's Diner"
+Playing song title "Take Me Away"
+Playing song title "Nuvole Bianche"
+Playing song title "Here With Me"
+Playing song title "Stoned"
+
+Checking the size of each playlist:
+Playlist "We Belong, 0:3:43, Pat Benatar, classic pop and rock
+" is 2 song(s) remaining.
+Playlist "Luka, 0:3:52, Suzanne Vega, classic pop and rock
+" is 2 song(s) remaining.
+Playlist "Get Happy, 0:6:36, Jean Knight, classic pop and rock
+" is 5 song(s) remaining.
+
+Songs in each list:
+
+favorites:
+
+-- We Belong, 0:3:43, Pat Benatar, classic pop and rock
+-- Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock
+
+
+lounge:
+
+-- Luka, 0:3:52, Suzanne Vega, classic pop and rock
+-- Traffic, 0:4:5, Dawn Landes, classic pop and rock
+
+
+roadTrip:
+
+-- Get Happy, 0:6:36, Jean Knight, classic pop and rock
+-- Let's Dance, 0:2:45, Jake Shimabukuro, folk
+-- Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+-- Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+-- Road Home, 0:5:8, The String Cheese Incident, folk
+
+
+Done with MyTunes.
+
+//----------------------------------------------------
+  output 2 of MyTunes.java
+//----------------------------------------------------
+
+NOTES: Testing empty the queues form the file(resources/tunes.txt) with 16 requested songs :
+
+
+Welcome! We have over 59600 in FoothillTunes store! 
+Total number of songs in playlists: 16
+
+Songs in each playlist:
+
+favorites:
+
+-- Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+-- Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+-- Stoned, 0:11:47, Dido, classic pop and rock
+-- We Belong, 0:3:43, Pat Benatar, classic pop and rock
+-- Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock
+
+
+lounge:
+
+-- Solo, 0:4:41, Working Week, classic pop and rock
+-- Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+-- Luka, 0:3:52, Suzanne Vega, classic pop and rock
+-- Traffic, 0:4:5, Dawn Landes, classic pop and rock
+
+
+roadTrip:
+
+-- Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+-- Here With Me, 0:4:41, Dido, classic pop and rock
+-- Get Happy, 0:6:36, Jean Knight, classic pop and rock
+-- Let's Dance, 0:2:45, Jake Shimabukuro, folk
+-- Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+-- Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+-- Road Home, 0:5:8, The String Cheese Incident, folk
+
+
+Enter your the number of songs you would like to play:
+16
+
+Playing 16 number of songs...
+Playing song title "Shadows - Original"
+Playing song title "Solo"
+Playing song title "Tom's Diner"
+Playing song title "Take Me Away"
+Playing song title "Nuvole Bianche"
+Playing song title "Here With Me"
+Playing song title "Stoned"
+Playing song title "Luka"
+Playing song title "Get Happy"
+Playing song title "We Belong"
+Playing song title "Traffic"
+Playing song title "Let's Dance"
+Playing song title "Stairway To The Stars"
+WARNING: playlist "lounge" is empty! 
+Playing song title "Oh What a Feeling"
+WARNING: playlist "favorites" is empty! 
+WARNING: playlist "lounge" is empty! 
+Playing song title "Separate Ways (Worlds Apart)"
+WARNING: playlist "favorites" is empty! 
+WARNING: playlist "lounge" is empty! 
+Playing song title "Road Home"
+
+Checking the size of each playlist:
+Playlist "favorites" has *no* songs remaining.
+Playlist "lounge" has *no* songs remaining.
+Playlist "road trip" has *no* songs remaining.
+
+Songs in each list:
+
+favorites:
+
+[ ]
+
+lounge:
+
+[ ]
+
+roadTrip:
+
+[ ]
+
+Done with MyTunes.
+
+//----------------------------------------------------
+  output 3 of MyTunes.java
+//----------------------------------------------------
+
+NOTES: Testing trying emptying when all the queues are empty
+form the file(resources/tunes.txt) with 16 requested songs : 
+
+Welcome! We have over 59600 in FoothillTunes store! 
+Total number of songs in playlists: 16
+
+Songs in each playlist:
+
+favorites:
+
+-- Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+-- Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+-- Stoned, 0:11:47, Dido, classic pop and rock
+-- We Belong, 0:3:43, Pat Benatar, classic pop and rock
+-- Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock
+
+
+lounge:
+
+-- Solo, 0:4:41, Working Week, classic pop and rock
+-- Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+-- Luka, 0:3:52, Suzanne Vega, classic pop and rock
+-- Traffic, 0:4:5, Dawn Landes, classic pop and rock
+
+
+roadTrip:
+
+-- Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+-- Here With Me, 0:4:41, Dido, classic pop and rock
+-- Get Happy, 0:6:36, Jean Knight, classic pop and rock
+-- Let's Dance, 0:2:45, Jake Shimabukuro, folk
+-- Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+-- Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+-- Road Home, 0:5:8, The String Cheese Incident, folk
+
+
+Enter your the number of songs you would like to play:
+234
+
+Playing 234 number of songs...
+Playing song title "Shadows - Original"
+Playing song title "Solo"
+Playing song title "Tom's Diner"
+Playing song title "Take Me Away"
+Playing song title "Nuvole Bianche"
+Playing song title "Here With Me"
+Playing song title "Stoned"
+Playing song title "Luka"
+Playing song title "Get Happy"
+Playing song title "We Belong"
+Playing song title "Traffic"
+Playing song title "Let's Dance"
+Playing song title "Stairway To The Stars"
+WARNING: playlist "lounge" is empty! 
+Playing song title "Oh What a Feeling"
+WARNING: playlist "favorites" is empty! 
+WARNING: playlist "lounge" is empty! 
+Playing song title "Separate Ways (Worlds Apart)"
+WARNING: playlist "favorites" is empty! 
+WARNING: playlist "lounge" is empty! 
+Playing song title "Road Home"
+
+Checking the size of each playlist:
+Playlist "favorites" has *no* songs remaining.
+Playlist "lounge" has *no* songs remaining.
+Playlist "road trip" has *no* songs remaining.
+
+Songs in each list:
+
+favorites:
+
+[ ]
+
+lounge:
+
+[ ]
+
+roadTrip:
+
+[ ]
+
+Done with MyTunes.
+
+
+//----------------------------------------------------
+  output 4 of MyTunes.java
+//----------------------------------------------------
+
+NOTES: Testing where some queues are empty form the file(resources/tunes_truncated.txt) with 3 requested songs :
+
+ 
+Welcome! We have over 59600 in FoothillTunes store! 
+Total number of songs in playlists: 3
+
+Songs in each playlist:
+
+favorites:
+
+-- Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+
+
+lounge:
+
+-- Solo, 0:4:41, Working Week, classic pop and rock
+
+
+roadTrip:
+
+-- Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+Enter your the number of songs you would like to play:
+4
+
+Playing 4 number of songs...
+Playing song title "Shadows - Original"
+Playing song title "Solo"
+Playing song title "Tom's Diner"
+
+Checking the size of each playlist:
+Playlist "favorites" has *no* songs remaining.
+Playlist "lounge" has *no* songs remaining.
+Playlist "road trip" has *no* songs remaining.
+
+Songs in each list:
+
+favorites:
+
+[ ]
+
+lounge:
+
+[ ]
+
+roadTrip:
+
+[ ]
+
+Done with MyTunes.
+
+
+
+//----------------------------------------------------
+  output 5 of MyTunes.java
+//----------------------------------------------------
+
+NOTES: Testing where initialy only one queue has songs, form the file(resources/tunes_One_Genre.txt)
+
+
+Welcome! We have over 59600 in FoothillTunes store! 
+Total number of songs in playlists: 4
+
+Songs in each playlist:
+
+favorites:
+
+[ ]
+
+lounge:
+
+[ ]
+
+roadTrip:
+
+-- Let's Dance, 0:2:45, Jake Shimabukuro, folk
+-- Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+-- Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+-- Road Home, 0:5:8, The String Cheese Incident, folk
+
+
+Enter your the number of songs you would like to play:
+6
+
+Playing 6 number of songs...
+WARNING: playlist "favorites" is empty! 
+WARNING: playlist "lounge" is empty! 
+Playing song title "Let's Dance"
+WARNING: playlist "favorites" is empty! 
+WARNING: playlist "lounge" is empty! 
+Playing song title "Oh What a Feeling"
+WARNING: playlist "favorites" is empty! 
+WARNING: playlist "lounge" is empty! 
+Playing song title "Separate Ways (Worlds Apart)"
+WARNING: playlist "favorites" is empty! 
+WARNING: playlist "lounge" is empty! 
+Playing song title "Road Home"
+
+Checking the size of each playlist:
+Playlist "favorites" has *no* songs remaining.
+Playlist "lounge" has *no* songs remaining.
+Playlist "road trip" has *no* songs remaining.
+
+Songs in each list:
+
+favorites:
+
+[ ]
+
+lounge:
+
+[ ]
+
+roadTrip:
+
+[ ]
+
+Done with MyTunes.
+
+ 
+ 
